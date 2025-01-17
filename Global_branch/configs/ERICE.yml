@@ -1,0 +1,24 @@
+data:
+    dataset: "ERICE"
+    channels: 3
+    num_workers: 2
+    data_dir: "/home/xjm/Project/jmxiong/data/Remote sense/ERICE"
+
+
+training:
+    batch_size: 32
+    n_epochs: 250
+    n_iters: 30000
+    snapshot_freq: 100
+    validation_freq: 100
+
+
+sampling:
+    batch_size: 4
+
+optim:
+    weight_decay: 0.000
+    optimizer: "Adam"
+    lr: 0.001
+    amsgrad: False
+    eps: 0.00000001

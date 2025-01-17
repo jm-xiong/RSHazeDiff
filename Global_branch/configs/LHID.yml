@@ -1,0 +1,24 @@
+data:
+    dataset: "LHID"
+    channels: 3
+    num_workers: 2
+    data_dir: "/home/xjm/Project/jmxiong/data/Remote sense/data/HazyRemoteSensingDatasets/LHID"
+
+
+training:
+    batch_size: 8
+    n_epochs: 200
+    n_iters: 3000000
+    snapshot_freq: 10000
+    validation_freq: 5000
+
+
+sampling:
+    batch_size: 8
+
+optim:
+    weight_decay: 0.000
+    optimizer: "Adam"
+    lr: 0.0001
+    amsgrad: False
+    eps: 0.00000001
