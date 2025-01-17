@@ -1,0 +1,47 @@
+data:
+    dataset: "DHID"
+    image_size: 64
+    channels: 3
+    num_workers: 2
+    data_dir: "/home/xjm/Project/jmxiong/data/Remote sense/HazyRemoteSensingDatasets/DHID"
+    conditional: True
+
+model:
+    in_channels: 3
+    out_ch: 3
+    ch: 128
+    ch_mult: [1, 1, 2, 2, 4, 4]
+    num_res_blocks: 2
+    attn_resolutions: [16, ]
+    dropout: 0.0
+    ema_rate: 0.999
+    ema: True
+    resamp_with_conv: True
+
+diffusion:
+    beta_schedule: linear
+    beta_start: 0.0001
+    beta_end: 0.02
+    num_diffusion_timesteps: 1000
+
+training:
+    patch_n: 16
+    batch_size: 4
+    n_epochs: 800
+    n_iters: 2000000
+    snapshot_freq: 10000
+    validation_freq: 10000
+
+
+sampling:
+    batch_size: 4
+    last_only: True
+
+optim:
+    weight_decay: 0.000
+    optimizer: "Adam"
+    lr: 0.00002
+    amsgrad: False
+    eps: 0.00000001
+    step_size: 500
+    gamma: 0.8
