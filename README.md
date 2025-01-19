@@ -1,6 +1,6 @@
 # RSHazeDiff: A Unified Fourier-aware Diffusion Model for Remote Sensing lmage Dehazing (TITS2024)
 
-[Jiamei Xiong](https://scholar.google.com/citations?user=-epzM98AAAAJ&hl=en), [Xuefeng Yan](https://scholar.google.com/citations?hl=en&user=C_sZsC0AAAAJ&view_op=list_works&sortby=pubdate), [Yongzhen Wang](https://scholar.google.com/citations?hl=en&user=fLeZQYkAAAAJ), [Wei Zhao](), [Xiao-Ping Zhang](https://scholar.google.ca/citations?hl=en&user=1fzb_z8AAAAJ&view_op=list_works&sortby=pubdate), [Mingqiang Wei](https://scholar.google.com/citations?user=TdrJj8MAAAAJ&hl=en&oi=ao),
+[Jiamei Xiong](https://scholar.google.com/citations?user=-epzM98AAAAJ&hl=en), [Xuefeng Yan](https://scholar.google.com/citations?hl=en&user=C_sZsC0AAAAJ&view_op=list_works&sortby=pubdate), [Yongzhen Wang](https://scholar.google.com/citations?hl=en&user=fLeZQYkAAAAJ), [Wei Zhao](), [Xiao-Ping Zhang](https://scholar.google.ca/citations?hl=en&user=1fzb_z8AAAAJ&view_op=list_works&sortby=pubdate), [Mingqiang Wei](https://scholar.google.com/citations?user=TdrJj8MAAAAJ&hl=en&oi=ao)
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2405.09083)
 
