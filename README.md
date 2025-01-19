@@ -1,4 +1,4 @@
-# RSHazeDiff: A Unified Fourier-aware Diffusion Model for Remote Sensing lmage Dehazing
+# RSHazeDiff: A Unified Fourier-aware Diffusion Model for Remote Sensing lmage Dehazing (TITS2024)
 
 This implementation is written by Jiamei Xiong at Nanjing University of Aeronautics and Astronautics. The code will be released after acceptance.
 
