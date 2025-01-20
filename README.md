@@ -70,6 +70,12 @@ You can download the datasets [LHID & DHID](https://pan.baidu.com/s/13aW-khZZcLF
                 └── Haze
 ```
 
+### Train
+If you want to train the diffusion branch on DHID, you can run the following command:
+```
+cd Diffusion_branch
+python train_diffusion.py --config 'DHID.yml' --sampling_timesteps 10 --image_folder './results'
+```
 
 ## Citation
 Please cite us if our work is useful for your research.
