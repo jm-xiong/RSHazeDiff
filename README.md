@@ -40,7 +40,8 @@ conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cud
 ```
 
 ### Prepare Datasets
-Please ensure that the [LHID & DHID](https://pan.baidu.com/s/13aW-khZZcLF3_1ax4H8GXQ?pwd=QW67) (password: QW67) and [ERICE](https://drive.google.com/file/d/1CricZtIj28BGFvkD_x-W8fSexPiDtgHk/view) datasets are properly downloaded and organized as follows: 
+Please ensure that the [LHID & DHID](https://pan.baidu.com/s/13aW-khZZcLF3_1ax4H8GXQ?pwd=QW67) (password: QW67) and [ERICE](https://drive.google.com/file/d/1CricZtIj28BGFvkD_x-W8fSexPiDtgHk/view) datasets are properly downloaded.
+
 
 ## Citation
 Please cite us if our work is useful for your research.
