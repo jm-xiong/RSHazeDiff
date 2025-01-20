@@ -39,6 +39,9 @@ conda activate rshazediff
 conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
 
+### Prepare Datasets
+Download the dataset [LHID & DHID](https://pan.baidu.com/s/13aW-khZZcLF3_1ax4H8GXQ?pwd=QW67) (password: QW67).
+
 ## Citation
 Please cite us if our work is useful for your research.
 
