@@ -71,13 +71,16 @@ You can download the datasets [LHID & DHID](https://pan.baidu.com/s/13aW-khZZcLF
 ```
 
 ### Train
-If you want to train the diffusion branch, you can run the following command:
+Firstly, you should run the following command to train the diffusion branch:
 ```
 cd Diffusion_branch
 python train_diffusion.py --config 'DHID.yml' --sampling_timesteps 10 --image_folder './results'
 python train_diffusion.py --config 'LHID.yml' --sampling_timesteps 10 --image_folder './results'
 python train_diffusion.py --config 'ERICE.yml' --sampling_timesteps 10 --image_folder './results'
 ```
+By default, the weight files will be saved in `checkpoints/`.
+
+
 
 ## Citation
 Please cite us if our work is useful for your research.
