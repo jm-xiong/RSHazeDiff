@@ -24,11 +24,9 @@
 
 ⭐If this work is helpful for you, please help star this repo. Thanks!🤗
 
-## Datasets:
+## Datasets
 
-## Train &Test
-
-The code will be released soon.
+## Train & Test
 
 ## Citation
 Please cite us if our work is useful for your research.
