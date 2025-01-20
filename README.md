@@ -18,15 +18,27 @@
 <hr />
 
 ## Network Architecture
-
 <img src = "https://imgur.la/images/2025/01/20/Overview.jpg"> 
-<img src = "https://imgur.la/images/2025/01/20/Fourier-aware-conditional-diffusion-model.jpg"> 
 
 ⭐If this work is helpful for you, please help star this repo. Thanks!🤗
 
-## Datasets
+## Getting Started
+### Environment
+Clone this repo:
 
-## Train & Test
+```
+git clone https://github.com/jm-xiong/RSHazeDiff.git
+cd RSHazeDiff/
+```
+
+Create a new conda environment and install dependencies:
+
+```
+conda create -n rshazediff python=3.7
+conda activate rshazediff
+conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.7 -c pytorch -c nvidia
+pip install -r requirements.txt
+```
 
 ## Citation
 Please cite us if our work is useful for your research.
