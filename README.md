@@ -24,17 +24,26 @@
 
 ⭐If this work is helpful for you, please help star this repo. Thanks!🤗
 
-## Requirements:
-
-Python 3.6 or above
-
-Pytorch 1.10.2
-
-CUDA 11.0
+## Datasets:
 
 ## Train &Test
 
 The code will be released soon.
+
+## Citation
+Please cite us if our work is useful for your research.
+
+    @article{xiong2025rshazediff,
+        title={RSHazeDiff: A Unified Fourier-aware Diffusion Model for Remote Sensing lmage Dehazing}, 
+        author={Xiong, Jiamei and Yan, Xuefeng and Wang, Yongzhen and Wei Zhao and Xiao-Ping Zhang and Wei, Mingqiang},
+        journal={IEEE Transactions on Intelligent Transportation Systems},
+        volume={26},
+        issue={1},
+        pages={1055-1070},
+        year={2024},
+        doi={10.1109/TITS.2024.3487972},
+        publisher={IEEE}
+    }
 
 ## Acknowledgement
 
