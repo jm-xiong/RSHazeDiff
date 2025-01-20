@@ -43,30 +43,31 @@ conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cud
 You can download the datasets [LHID & DHID](https://pan.baidu.com/s/13aW-khZZcLF3_1ax4H8GXQ?pwd=QW67) (password: QW67) and [RICE](https://drive.google.com/file/d/1CricZtIj28BGFvkD_x-W8fSexPiDtgHk/view). Note that ERICE dataset is expanded on RICE1 by cutting the images to the size of 256 × 256 pixels without overlapping. Make sure the file structure is consistent with the following:
 
 ```python
-├── ERICE
-│   ├── Test
-│   │   ├── GT
-│   │   └── Haze
-│   └── Train
-│       ├── GT
-│       └── Haze
-└── HazyRemoteSensingDatasets
-    ├── DHID
-    │   ├── TestingSet
-    │   │   └── Test
-    │   │       ├── GT
-    │   │       └── Haze
-    │   └── TrainingSet
+└── Dataset
+    ├── ERICE
+    │   ├── Test
+    │   │   ├── GT
+    │   │   └── Haze
+    │   └── Train
     │       ├── GT
     │       └── Haze
-    └── LHID
-        ├── TestingSet
-        │   └── Merge
+    └── HazyRemoteSensingDatasets
+        ├── DHID
+        │   ├── TestingSet
+        │   │   └── Test
+        │   │       ├── GT
+        │   │       └── Haze
+        │   └── TrainingSet
         │       ├── GT
         │       └── Haze
-        └── TrainingSet
-            ├── GT
-            └── Haze
+        └── LHID
+            ├── TestingSet
+            │   └── Merge
+            │       ├── GT
+            │       └── Haze
+            └── TrainingSet
+                ├── GT
+                └── Haze
 ```
 
 
