@@ -50,24 +50,23 @@ You can download the datasets [LHID & DHID](https://pan.baidu.com/s/13aW-khZZcLF
 │   └── Train
 │       ├── GT
 │       └── Haze
-├── HazyRemoteSensingDatasets
-│   ├── DHID
-│   │   ├── TestingSet
-│   │   │   └── Test
-│   │   │       ├── GT
-│   │   │       └── Haze
-│   │   └── TrainingSet
-│   │       ├── GT
-│   │       └── Haze
-│   └── LHID
-│       ├── TestingSet
-│       │   └── Merge
-│       │       ├── GT
-│       │       └── Haze
-│       └── TrainingSet
-│           ├── GT
-│           └── Haze
-└── output.md
+└── HazyRemoteSensingDatasets
+    ├── DHID
+    │   ├── TestingSet
+    │   │   └── Test
+    │   │       ├── GT
+    │   │       └── Haze
+    │   └── TrainingSet
+    │       ├── GT
+    │       └── Haze
+    └── LHID
+        ├── TestingSet
+        │   └── Merge
+        │       ├── GT
+        │       └── Haze
+        └── TrainingSet
+            ├── GT
+            └── Haze
 ```
 
 
