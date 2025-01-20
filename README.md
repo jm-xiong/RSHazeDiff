@@ -8,12 +8,18 @@
 #### News
 - **Dec 20, 2023:** This repo is released. 
 - **May 15, 2024:** Arxiv paper available.
-- **Nov 8, 2024:** Our RSHazeDiff is accepted by IEEE TITS2024 :tada: 
-- **Nov 21, 2024:** 🔈The code is available now, enjoy yourself!
+- **Nov 8, 2024:** 🤗 Paper is accepted by IEEE TITS2024 :tada: 
+- **Jan 17, 2025:** 🔈The code is available now, enjoy yourself!
+- **Jan 20, 2025:** Updated README file with detailed instruciton.
 
 <hr />
+
 > **Abstract:** *Haze severely degrades the visual quality of remote sensing images and hampers the performance of road extraction, vehicle detection, and traffic flow monitoring. The emerging denoising diffusion probabilistic model (DDPM) exhibits the significant potential for dense haze removal with its strong generation ability. Since remote sensing images contain extensive small-scale texture structures, it is important to effectively restore image details from hazy images. However, current wisdom of DDPM fails to preserve image details and color fidelity well, limiting its dehazing capacity for remote sensing images. In this paper, we propose a novel unified Fourier-aware diffusion model for remote sensing image dehazing, termed RSHazeDiff. From a new perspective, RSHazeDiff explores the conditional DDPM to improve image quality in dense hazy scenarios, and it makes three key contributions. First, RSHazeDiff refines the training phase of diffusion process by performing noise estimation and reconstruction constraints in a coarse-to-fine fashion. Thus, it remedies the unpleasing results caused by the simple noise estimation constraint in DDPM. Second, by taking the frequency information as important prior knowledge during iterative sampling steps, RSHazeDiff can preserve more texture details and color fidelity in dehazed images. Third, we design a global compensated learning module to utilize the Fourier transform to capture the global dependency features of input images, which can effectively mitigate the effects of boundary artifacts when processing fixed-size patches. Experiments on both synthetic and real-world benchmarks validate the favorable performance of RSHazeDiff over state-of-the-art methods.* 
 <hr />
+
+## Network Architecture
+
+<img src = "https://i.imgur.com/ulLoEig.png"> 
 
 ## Requirements:
 
