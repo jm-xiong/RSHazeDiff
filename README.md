@@ -8,7 +8,7 @@
 #### News
 - **Dec 20, 2023:** This repo is released. 
 - **May 15, 2024:** Arxiv paper available.
-- **Nov 8, 2024:** 🤗 Paper is accepted by IEEE TITS2024 :tada: 
+- **Nov 8, 2024:** 🤗 Paper is accepted by IEEE TITS2024. 
 - **Jan 17, 2025:** 🔈The code is available now, enjoy yourself!
 - **Jan 20, 2025:** Updated README file with detailed instruciton.
 
