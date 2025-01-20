@@ -2,7 +2,9 @@
 
 [Jiamei Xiong](https://scholar.google.com/citations?user=-epzM98AAAAJ&hl=en), [Xuefeng Yan](https://scholar.google.com/citations?hl=en&user=C_sZsC0AAAAJ&view_op=list_works&sortby=pubdate), [Yongzhen Wang](https://scholar.google.com/citations?hl=en&user=fLeZQYkAAAAJ), [Wei Zhao](), [Xiao-Ping Zhang](https://scholar.google.ca/citations?hl=en&user=1fzb_z8AAAAJ&view_op=list_works&sortby=pubdate), [Mingqiang Wei](https://scholar.google.com/citations?user=TdrJj8MAAAAJ&hl=en&oi=ao)
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2405.09083)
+[![paper](https://img.shields.io/badge/IEEE TITS-2024-blue)](https://ieeexplore.ieee.org/document/10747754)
+[![arXiv](https://img.shields.io/badge/arXiv-2024-red)](https://arxiv.org/abs/2405.09083)
+
 
 ## Requirements:
 
