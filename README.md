@@ -71,10 +71,12 @@ You can download the datasets [LHID & DHID](https://pan.baidu.com/s/13aW-khZZcLF
 ```
 
 ### Train
-If you want to train the diffusion branch on DHID, you can run the following command:
+If you want to train the diffusion branch, you can run the following command:
 ```
 cd Diffusion_branch
 python train_diffusion.py --config 'DHID.yml' --sampling_timesteps 10 --image_folder './results'
+python train_diffusion.py --config 'LHID.yml' --sampling_timesteps 10 --image_folder './results'
+python train_diffusion.py --config 'ERICE.yml' --sampling_timesteps 10 --image_folder './results'
 ```
 
 ## Citation
