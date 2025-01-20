@@ -35,3 +35,11 @@ CUDA 11.0
 ## Train &Test
 
 The code will be released soon.
+
+## Acknowledgement
+
+This code is based on [WeatherDiffusion](https://github.com/IGITUGraz/WeatherDiffusion). Thanks for their awesome work.
+
+## Contact
+
+If you have any questions, feel free to approach me at jmxiong@nuaa.edu.cn
